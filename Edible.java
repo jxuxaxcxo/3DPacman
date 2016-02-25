@@ -6,7 +6,7 @@ public class Edible extends Immovable{
 	}
 	
 	
-		// TAKES A PACMAN OBJECT, AND IF ITS "X" AND "Y" POSITION ARE THE SAME AS THE POWER PILL RETURNS TRUE
+	// TAKES A PACMAN OBJECT, AND IF ITS "X" AND "Y" POSITION ARE THE SAME AS THE OBJECT RETURNS TRUE
 	public isEatenBy(Pacman p){
 		
 		if (p.getX() ==xPos && p.getY()== yPos)
